@@ -3,21 +3,10 @@
   "version": "0.1.0",
   "mcpServers": {
     "postman": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-                "@postman/postman-mcp-server@latest"
-            ],
-            "env": {
-                "POSTMAN_API_KEY": "${input:postman-api-key}"
-            }
+      "httpUrl": "https://mcp.postman.com/mcp",
+      "oauth": {
+        "enabled": true
         }
-    },
-    "inputs": [
-        {
-            "id": "postman-api-key",
-            "type": "promptString",
-            "description": "Enter your Postman API key"
-        }
-    ]
+      }
+    }
 }
