@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "mcpServers": {
     "postman": {
-      "httpUrl": "https://mcp.postman.com/mcp",
+      "httpUrl": "https://mcp.postman.com/minimal",
       "headers": {
         "Authorization": "Bearer ${POSTMAN_API_KEY}"
       }
