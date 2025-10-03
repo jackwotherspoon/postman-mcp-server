@@ -4,9 +4,8 @@
   "mcpServers": {
     "postman": {
       "httpUrl": "https://mcp.postman.com/mcp",
-      "oauth": {
-        "enabled": true
-        }
+      "headers": {
+        "Authorization": "Bearer ${POSTMAN_API_KEY}"
       }
     }
 }
