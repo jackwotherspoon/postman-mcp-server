@@ -8,4 +8,5 @@
         "Authorization": "Bearer ${POSTMAN_API_KEY}"
       }
     }
+  }
 }
